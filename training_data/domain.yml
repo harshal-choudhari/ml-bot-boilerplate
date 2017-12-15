@@ -1,0 +1,32 @@
+slots:
+
+intents:
+ - greet
+ - affirm
+ - deny
+ - negative
+ - thanks
+ - goodbye
+
+entities:
+
+templates:
+  utter_deny:
+    - "Ok. Have a nice day. Bye."
+  utter_affirm:
+    - "Ok, How may I help you?"
+  utter_ask_helpmore:
+    - "is there anything more that I can help with?"
+  utter_on_it:
+    - "I'm on it"
+  utter_thanks:
+    - "You are welcome"
+  utter_negative:
+      - "Ok."
+
+actions:
+  - utter_affirm
+  - utter_deny
+  - utter_ask_helpmore
+  - utter_negative
+  - utter_thanks
