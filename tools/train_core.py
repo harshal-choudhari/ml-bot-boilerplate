@@ -9,6 +9,7 @@ from rasa_core.policies.memoization import MemoizationPolicy
 
 from config import *
 
+
 def train_rasa_core():
     agent = Agent(RASA_CORE_DOMAIN_PATH,
                   policies=[MemoizationPolicy(), StatusPolicy()])

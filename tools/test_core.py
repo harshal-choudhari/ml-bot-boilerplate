@@ -19,6 +19,7 @@ agent = Agent.load(
     )
 )
 
+
 def run_application(serve_forever=True):
     if serve_forever:
         agent.handle_channel(ConsoleInputChannel())

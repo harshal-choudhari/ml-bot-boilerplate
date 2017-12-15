@@ -3,7 +3,9 @@ from rasa_core.policies.keras_policy import KerasPolicy
 
 logger = logging.getLogger(__name__)
 
+
 class StatusPolicy(KerasPolicy):
+
     def _build_model(self, num_features, num_actions, max_history_len):
         from keras.layers import LSTM, Activation, Masking, Dense
         from keras.models import Sequential
@@ -30,4 +32,3 @@ class StatusPolicy(KerasPolicy):
                       metrics=['accuracy'])
         logger.debug(model.summary())
         return model
-
