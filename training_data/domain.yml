@@ -7,6 +7,8 @@ intents:
  - negative
  - thanks
  - goodbye
+ - wru
+ - hru
 
 entities:
 
@@ -23,6 +25,10 @@ templates:
     - "You are welcome"
   utter_negative:
       - "Ok."
+  utter_wru:
+      - "I am bot"
+  utter_hru:
+      - "I am fine and you?"
 
 actions:
   - utter_affirm
@@ -30,3 +36,5 @@ actions:
   - utter_ask_helpmore
   - utter_negative
   - utter_thanks
+  - utter_wru
+  - utter_hru
