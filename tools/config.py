@@ -1,8 +1,8 @@
-import os 
+import os
 import sys
 
 CWD = os.path.dirname(os.path.realpath(__file__))
-sys.path.append('/'.join(i for i in CWD.split('/')[:-1]))
+CWD = ('/'.join(i for i in CWD.split('/')[:-1])) + '/'
 
 RASA_NLU_MODEL_PATH = CWD + os.environ.get('RASA_NLU_MODEL_PATH')
 RASA_NLU_MODEL_NAME = os.environ.get('RASA_NLU_MODEL_NAME')

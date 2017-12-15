@@ -1,23 +1,23 @@
 ##greet
 * _greet
-    - action_utter_greet
-* _affirm
-    - utter_affirm
+    - utter_greet
 
 ##goodbye
 * _goodbye
-    - action_utter_goodbye
+    -utter_goodbye
 
-## thanks with deny
+## thanks 
 * _thanks
     - utter_thanks
-    - utter_ask_helpmore
-* _deny
-    - utter_deny
 
-## thanks with affirm
-* _thanks
-    - utter_thanks
-    - utter_ask_helpmore
+## affirm
 * _affirm
     - utter_affirm
+
+## who are you
+* _wru
+    - utter_wru
+
+## how are you
+* _hru
+    - utter_hru

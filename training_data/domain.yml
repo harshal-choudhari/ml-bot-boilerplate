@@ -1,4 +1,6 @@
 slots:
+ temp:
+  type: text
 
 intents:
  - greet
@@ -11,8 +13,13 @@ intents:
  - hru
 
 entities:
+  - temp
 
 templates:
+  utter_greet:
+    - "Hello"
+  utter_goodbye:
+    - "Goodbye"
   utter_deny:
     - "Ok. Have a nice day. Bye."
   utter_affirm:
@@ -31,6 +38,8 @@ templates:
       - "I am fine and you?"
 
 actions:
+  - utter_greet
+  - utter_goodbye
   - utter_affirm
   - utter_deny
   - utter_ask_helpmore

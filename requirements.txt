@@ -1,2 +1,6 @@
 rasa-core==0.7.9
 rasa-nlu==0.10.5
+scikit-learn==0.19.1
+scipy==1.0.0
+sklearn-crfsuite==0.3.6
+spacy==2.0.5

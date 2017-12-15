@@ -1,0 +1,1938 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi bot"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello bot"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good afternoon"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thanks"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thank you"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thank you very much"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thank u"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thnx"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yup"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes i do have another problem"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes can you help me with"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes sure"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "no thanks "
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "no thanx"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "no thank you"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "nope"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "no goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "sayonara"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanks bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thank you bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanx bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanks goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanx goodbye"
+      },
+      {
+        "intent": "negative",
+        "entities": [],
+        "text": "i do not know"
+      },
+      {
+        "intent": "negative",
+        "entities": [],
+        "text": "i donot know"
+      },
+      {
+        "intent": "negative",
+        "entities": [],
+        "text": "i don't know "
+      },
+      {
+        "intent": "negative",
+        "entities": [],
+        "text": "do not know"
+      },
+      {
+        "intent": "negative",
+        "entities": [],
+        "text": "donot know"
+      },
+      {
+        "intent": "negative",
+        "entities": [],
+        "text": "don't know "
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "greet!"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hello"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "Hi, How is it going?"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "How are you doing?"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Nice to meet you."
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "How do you do?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hi, nice to meet you."
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "It is a pleasure to meet you."
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Top of the morning to you!"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "What's up?"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "What's up?"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am fine thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am fine thanks"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "thank you for asking"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thanks "
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "fine thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "fine thanks"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "fine thank u"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am good"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am good thanks for asking"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am good. thanks."
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am good thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am good"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "fine here"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am good and fine"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "as usual fine"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "good"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "fit and fine"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "fine"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "good"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "how are you?"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "How are you?"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "how are you"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "How are you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am good. thank you."
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am fine. thanks."
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am fine, thank you."
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "fine. thank you."
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "good. thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "good. thanks."
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "fine. thanks."
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "no i am not"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "nope "
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "nope i am not"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "nah"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "None"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "Nothing"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes i am"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes thanks"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes thanx"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes thank u"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yup"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yup thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yup thankx"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yup thank u"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see you"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see yeah"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see you soon"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "sayonara"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am fine thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am good thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "m fine thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "m good thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am fine thanks"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am good thanks"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "m fine thanks"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "m good thanks"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "good"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "fine"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "excellent thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "excellent thanks"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "How are you doing?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hi, nice to meet you."
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "How do you do?"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Nice to meet you."
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "What's up?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Top of the morning to you!"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "Hi, How is it going?"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "It is a pleasure to meet you."
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Greetings!"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hi"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanks bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thank you bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanx bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanx bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "no bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "no thanks bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "nope bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see you"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see yeah"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see you soon"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "sayonara"
+      },
+      {
+        "intent": "wru",
+        "entities": [],
+        "text": "who are you"
+      },
+      {
+        "intent": "wru",
+        "entities": [],
+        "text": "what are you"
+      },
+      {
+        "intent": "wru",
+        "entities": [],
+        "text": "what is your name"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "ok"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "okay"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "okey"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "ok thats great"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "ok that is great"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "you are awesome"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thanks for your help"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "ok thanks for help "
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "morning how are you "
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thank you very much"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "how are you "
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Goodbye"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thank you you re so nice"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "Goodbye"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thank you you re so nice"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "How are you doing"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "how are you?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hi, nice to meet you."
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "How do you do?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Nice to meet you."
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "What's up?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Top of the morning to you!"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "It is a pleasure to meet you."
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "Hi, How is it going?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Greetings!"
+      },
+      {
+        "intent": "wru",
+        "entities": [],
+        "text": "what is your name"
+      },
+      {
+        "intent": "wru",
+        "entities": [],
+        "text": "whats your name"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanks bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thank you bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanx bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "no thanks bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "no goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see you"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see yeah"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see you soon"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "sayonara"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "How are you doing"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "how are you?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hi, nice to meet you."
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "How do you do?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Nice to meet you."
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "What's up?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Top of the morning to you!"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "It is a pleasure to meet you."
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "Hi, How is it going?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Greetings!"
+      },
+      {
+        "intent": "wru",
+        "entities": [],
+        "text": "what is your name"
+      },
+      {
+        "intent": "wru",
+        "entities": [],
+        "text": "whats your name"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanks bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thank you bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanx bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "no thanks bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "no goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see you"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see yeah"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see you soon"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "sayonara"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "How are you doing"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "how are you?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hi, nice to meet you."
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "How do you do?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Nice to meet you."
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "What's up?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Top of the morning to you!"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "It is a pleasure to meet you."
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "Hi, How is it going?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Greetings!"
+      },
+      {
+        "intent": "wru",
+        "entities": [],
+        "text": "what is your name"
+      },
+      {
+        "intent": "wru",
+        "entities": [],
+        "text": "whats your name"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanks bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thank you bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanx bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "no thanks bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "no goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see you"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see yeah"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see you soon"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "sayonara"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "How are you doing"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "how are you?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hi, nice to meet you."
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "How do you do?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Nice to meet you."
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "What's up?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Top of the morning to you!"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "It is a pleasure to meet you."
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "Hi, How is it going?"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Greetings!"
+      },
+      {
+        "intent": "wru",
+        "entities": [],
+        "text": "what is your name"
+      },
+      {
+        "intent": "wru",
+        "entities": [],
+        "text": "whats your name"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanks bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thank you bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanx bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "no thanks bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "no goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see you"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see yeah"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see you soon"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "sayonara"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi bot"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hello bot"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good afternoon"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thanks"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thank you"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thank you very much"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thank u"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thnx"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yup"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes sure"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "no thanks "
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "no thanx"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "no thank you"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "nope"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "no goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "sayonara"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanks bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thank you bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanx bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanks goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanx goodbye"
+      },
+      {
+        "intent": "negative",
+        "entities": [],
+        "text": "i do not know"
+      },
+      {
+        "intent": "negative",
+        "entities": [],
+        "text": "i donot know"
+      },
+      {
+        "intent": "negative",
+        "entities": [],
+        "text": "i don't know "
+      },
+      {
+        "intent": "negative",
+        "entities": [],
+        "text": "do not know"
+      },
+      {
+        "intent": "negative",
+        "entities": [],
+        "text": "donot know"
+      },
+      {
+        "intent": "negative",
+        "entities": [],
+        "text": "don't know "
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "ok thanks"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "ok thankx"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "ok thnx"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "ok thank you"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thank you very much"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "k thanks"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thnx"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "no bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "no thanks bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "no goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "nope bye"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "greet!"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hello"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "thank you for asking"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thanks "
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "fine thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "fine thanks"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "fine thank u"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am good"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am good thanks for asking"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am good. thanks."
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am good thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am good"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "fine here"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am good and fine"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "as usual fine"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "good"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "fit and fine"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "fine"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "good"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "how are you?"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "How are you?"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "how are you"
+      },
+      {
+        "intent": "hru",
+        "entities": [],
+        "text": "How are you"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "i am good. thank you."
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "i am fine. thanks."
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "i am fine, thank you."
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "fine. thank you."
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good. thank you"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "good. thanks."
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "fine. thanks."
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "no i am not"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "nope "
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "nope i am not"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "nah"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "None"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "Nothing"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes i am"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes thanks"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes thanx"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yes thank u"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yup"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yup thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yup thankx"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "yup thank u"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see you"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see yeah"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see you soon"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "sayonara"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am fine thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am good thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "m fine thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "m good thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am fine thanks"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "i am good thanks"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "m fine thanks"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "m good thanks"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "good"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "fine"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "excellent thank you"
+      },
+      {
+        "intent": "affirm",
+        "entities": [],
+        "text": "excellent thanks"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Greetings!"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hi"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanks bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thank you bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanx bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "thanx bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "no bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "no thanks bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "nope bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see you"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see yeah"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "see you soon"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "sayonara"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hi"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "ok"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "okay"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "okey"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "ok thats great"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "ok that is great"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "you are awesome"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "thanks for your help"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "ok thanks for help "
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

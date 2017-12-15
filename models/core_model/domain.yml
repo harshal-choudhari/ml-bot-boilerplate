@@ -1,0 +1,49 @@
+action_factory: null
+actions:
+- utter_greet
+- utter_goodbye
+- utter_affirm
+- utter_deny
+- utter_ask_helpmore
+- utter_negative
+- utter_thanks
+- utter_wru
+- utter_hru
+config:
+  store_entities_as_slots: true
+entities:
+- temp
+intents:
+- greet
+- affirm
+- deny
+- negative
+- thanks
+- goodbye
+- wru
+- hru
+slots:
+  temp:
+    type: text
+templates:
+  utter_affirm:
+  - text: Ok, How may I help you?
+  utter_ask_helpmore:
+  - text: is there anything more that I can help with?
+  utter_deny:
+  - text: Ok. Have a nice day. Bye.
+  utter_goodbye:
+  - text: Goodbye
+  utter_greet:
+  - text: Hello
+  utter_hru:
+  - text: I am fine and you?
+  utter_negative:
+  - text: Ok.
+  utter_on_it:
+  - text: I'm on it
+  utter_thanks:
+  - text: You are welcome
+  utter_wru:
+  - text: I am bot
+topics: []
