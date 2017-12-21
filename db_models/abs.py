@@ -1,5 +1,5 @@
 import peewee
-from app.middlewares.database import psql_db
+from middlewares.database import psql_db
 
 class ABS(peewee.Model):
     """
@@ -9,4 +9,4 @@ class ABS(peewee.Model):
     class Meta:
         database = psql_db
 
-    
+
