@@ -34,6 +34,8 @@ class Bot():
             This method will return response to user query
         """
         try:
+            print('dir -', dir(req))
+            print('req -', req)
             self.checkDefaultMessage("hello")
         except Exception as e:
             print("Exception in bot- ", e)
