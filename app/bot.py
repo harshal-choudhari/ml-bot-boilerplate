@@ -44,7 +44,7 @@ class Bot():
                 print('ans ', ans)
                 print('type ', type(ans[0]))
                 print('ans ', ans[0])
-                resp.body = ans
+                resp.body = ans[0]
             else:
                 resp.body = "Default message"
         except Exception as e:
