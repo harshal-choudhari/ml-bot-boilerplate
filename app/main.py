@@ -1,0 +1,29 @@
+import falcon
+import os
+import sys
+
+CWD = os.path.dirname(os.path.realpath(__file__))
+sys.path.append('/'.join(i for i in CWD.split('/')[:-1]))
+from app import bot
+#from app.middlewares.user import (UserMiddleware, )
+#from app.middlewares.database import (DatabaseMiddleware, )
+
+
+class App(falcon.API):
+    """
+    Base App linking WSGI and Falcon Framework
+    """
+
+    def __init__(self, bott, *args, **kwargs):
+        super(App, self).__init__(*args, **kwargs)
+        self.add_route('/bot', bott)
+
+#middleware = [DatabaseMiddleware(), UserMiddleware()]
+bott = bot.Bot()
+#application = App(bott, middleware=middleware)
+application = App(bott)
+
+if __name__ == "__main__":
+    # For testing on local
+    from tools import test_core as testing
+    testing.run_application()

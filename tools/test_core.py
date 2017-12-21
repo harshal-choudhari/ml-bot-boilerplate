@@ -10,7 +10,7 @@ from rasa_core.interpreter import RasaNLUInterpreter
 from rasa_core.channels.console import ConsoleInputChannel
 from rasa_core.channels.rest import HttpInputChannel
 
-from config import *
+from tools.config import *
 
 agent = Agent.load(
     RASA_CORE_MODEL_PATH,
