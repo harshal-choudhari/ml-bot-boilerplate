@@ -28,6 +28,6 @@ class Bot():
             This method will return response to user query
         """
         try:
-            resp.body = self.checkDefaultMessage("hello")
+            resp.body = str(self.checkDefaultMessage("hello"))
         except Exception as e:
             print("Exception in bot- ", e)
