@@ -21,12 +21,12 @@ class Bot():
     def checkDefaultMessage(self, text_message):
         interpreter = Interpreter.load(RASA_NLU_MODEL_PATH + \
                 RASA_NLU_MODEL_NAME, RasaNLUConfig(RASA_NLU_CONFIG_PATH))
-        return interpreter.parse("hello")
+        return interpreter.parse(text_message)
     def on_post(self, req, resp):
         """
             This method will return response to user query
         """
         try:
-            resp.body = self.checkDefaultMessage()
+            resp.body = self.checkDefaultMessage("hello")
         except Exception as e:
             print("Exception in bot- ", e)
