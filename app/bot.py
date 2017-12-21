@@ -1,6 +1,7 @@
 from rasa_core.agent import Agent
 from rasa_core.interpreter import RasaNLUInterpreter
 from rasa_nlu.model import Metadata, Interpreter
+from rasa_nlu.config import RasaNLUConfig
 
 from tools.config import *
 
