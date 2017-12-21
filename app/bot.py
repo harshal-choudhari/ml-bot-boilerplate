@@ -38,7 +38,7 @@ class Bot():
         try:
             data = req.bounded_stream.read()
             print('type', type(data))
-            data = json.loads(data)
+            data = json.loads(str(data))
             s = self.checkDefaultMessage(data)
             print('q -', data)
             print('a -', s)
