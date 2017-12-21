@@ -21,16 +21,18 @@ class Bot():
         self.sender = None
 
     def checkDefaultMessage(self, text_message):
-        #interpreter = Interpreter.load(RASA_NLU_MODEL_PATH + \
-        #        RASA_NLU_MODEL_NAME, RasaNLUConfig(RASA_NLU_CONFIG_PATH))
-        return self.inter.parse(text_message)
+        from app.models.logging import Logging
+        parsed_data = self.inter.parse(text_message)
+        confidence = parsed_data['intent']['confidence']
+        if (confidence <= float(os.environ.get('MINIMUM_INTENT_DEFAULT_CONFIDENCE'))):
+            Logging.create(text=parsed_data['text'], intent=parsed_data['intent']['name'], confidence=confidence)
+            return False
+        return True
 
     def on_post(self, req, resp):
         """
             This method will return response to user query
         """
         try:
-            parsed_data = self.checkDefaultMessage("hello")
-            print(parsed_data)
         except Exception as e:
             print("Exception in bot- ", e)

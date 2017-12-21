@@ -13,7 +13,7 @@ try:
         'RASA_CORE_EPOCHS': 500,
         'RASA_CORE_BATCH_SIZE': 50,
         'RASA_CORE_VALIDATION': 0.2,
-        'MINIMUM_INTENT_FOR_DEFAULT_MESSAGE': 0.6,
+        'MINIMUM_INTENT_DEFAULT_CONFIDENCE': 0.6,
     }
     for k, v in variables.items():
         i = 'export {}="{}"'.format(k, v)
