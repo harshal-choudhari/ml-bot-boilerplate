@@ -3,6 +3,11 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
 
+import sys
+import os
+
+CWD = os.path.dirname(os.path.realpath(__file__))
+sys.path.append('/'.join(i for i in CWD.split('/')[:-1]))
 from app.policy import StatusPolicy
 from rasa_core.agent import Agent
 from rasa_core.policies.memoization import MemoizationPolicy

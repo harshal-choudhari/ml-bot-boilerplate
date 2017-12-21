@@ -4,6 +4,6 @@
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
     "rasa_core.policies.memoization.MemoizationPolicy",
-    "policy.StatusPolicy"
+    "app.policy.StatusPolicy"
   ]
 }
