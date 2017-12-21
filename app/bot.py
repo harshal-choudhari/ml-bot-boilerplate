@@ -31,5 +31,6 @@ class Bot():
         """
         try:
             parsed_data = self.checkDefaultMessage("hello")
+            print(parsed_data)
         except Exception as e:
             print("Exception in bot- ", e)
