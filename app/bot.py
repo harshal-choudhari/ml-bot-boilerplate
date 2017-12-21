@@ -21,7 +21,7 @@ class Bot():
         self.sender = None
 
     def checkDefaultMessage(self, text_message):
-        from app.models.logging import Logging
+        from db_models.logging import Logging
         parsed_data = self.inter.parse(text_message)
         confidence = parsed_data['intent']['confidence']
         if (confidence <= float(os.environ.get('MINIMUM_INTENT_DEFAULT_CONFIDENCE'))):
@@ -34,5 +34,6 @@ class Bot():
             This method will return response to user query
         """
         try:
+            self.checkDefaultMessage("hello")
         except Exception as e:
             print("Exception in bot- ", e)
