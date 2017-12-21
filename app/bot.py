@@ -40,8 +40,8 @@ class Bot():
             data = json.loads(data.decode('utf-8'))
             if (self.checkDefaultMessage(data['text'])):
                 result = self.agent.handle_message(data['text'])
-                resp.body = str(result[0])
+                resp.body = {'result' : str(result[0])}
             else:
-                return "Default message"
+                resp.body = {'result' : 'Default message'}
         except Exception as e:
             print("Exception in bot- ", e)
