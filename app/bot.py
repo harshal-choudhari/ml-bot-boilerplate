@@ -38,9 +38,9 @@ class Bot():
         try:
             data = req.bounded_stream.read()
             print('type', type(data))
-            data = json.loads(str(data))
-            s = self.checkDefaultMessage(data)
+            data = json.loads(data.decode('utf-8'))
             print('q -', data)
+            s = self.checkDefaultMessage(data)
             print('a -', s)
         except Exception as e:
             print("Exception in bot- ", e)
