@@ -36,7 +36,8 @@ class Bot():
             This method will return response to user query
         """
         try:
-            data = json.load(req.stream.read())
+            data = req.bounded_stream.read()
+            data = json.loads(message_data.decode('utf-8'))
             s = self.checkDefaultMessage(data)
             print('q -', data)
             print('a -', s)
