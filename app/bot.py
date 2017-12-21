@@ -1,3 +1,5 @@
+import json
+
 from rasa_core.agent import Agent
 from rasa_core.interpreter import RasaNLUInterpreter
 from rasa_nlu.model import Metadata, Interpreter
@@ -34,9 +36,9 @@ class Bot():
             This method will return response to user query
         """
         try:
-            print('dir -', dir(req))
-            print('req -', req.stream)
-            print('req -', req.stream.read())
-            self.checkDefaultMessage("hello")
+            data = json.load(req.stream.read())
+            s = self.checkDefaultMessage(data)
+            print('q -', data)
+            print('a -', s)
         except Exception as e:
             print("Exception in bot- ", e)
