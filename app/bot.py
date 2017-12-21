@@ -42,6 +42,8 @@ class Bot():
                 ans = self.agent.handle_message(data['text'])
                 print('type ', type(ans))
                 print('ans ', ans)
+                print('type ', type(ans[0]))
+                print('ans ', ans[0])
                 resp.body = ans
             else:
                 resp.body = "Default message"
