@@ -10,18 +10,17 @@ class Bot():
     """
 
     def __init__(self):
-        self.interpreter = RasaNLUInterpreter(RASA_NLU_MODEL_PATH + RASA_NLU_MODEL_NAME)
         self.agent = Agent.load(
             RASA_CORE_MODEL_PATH,
-            interpreter=self.interpreter)
+            interpreter=RasaNLUInterpreter(RASA_NLU_MODEL_PATH + RASA_NLU_MODEL_NAME))
         self.data = None
         self.channel = None
         self.output_channel = None
         self.sender = None
 
     def checkDefaultMessage(self, text_message):
-        #interpreter = Interpreter.load(RASA_NLU_MODEL_PATH + \
-        #        RASA_NLU_MODEL_NAME, RasaNLUConfig(RASA_NLU_CONFIG_PATH))
+        interpreter = Interpreter.load(RASA_NLU_MODEL_PATH + \
+                RASA_NLU_MODEL_NAME, RasaNLUConfig(RASA_NLU_CONFIG_PATH))
         print(self.interpreter.parse(text_message))
     def on_post(self, req, resp):
         """
