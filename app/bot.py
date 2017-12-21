@@ -35,7 +35,8 @@ class Bot():
         """
         try:
             print('dir -', dir(req))
-            print('req -', req)
+            print('req -', req.stream)
+            print('req -', req.stream.read())
             self.checkDefaultMessage("hello")
         except Exception as e:
             print("Exception in bot- ", e)
