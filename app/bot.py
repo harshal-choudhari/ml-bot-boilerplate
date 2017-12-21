@@ -39,7 +39,10 @@ class Bot():
             data = req.bounded_stream.read()
             data = json.loads(data.decode('utf-8'))
             if (self.checkDefaultMessage(data['text'])):
-                resp.body = self.agent.handle_message(data['text'])
+                ans = self.agent.handle_message(data['text'])
+                print('type ', type(ans))
+                print('ans ', ans)
+                resp.body = ans
             else:
                 resp.body = "Default message"
         except Exception as e:
