@@ -26,8 +26,6 @@ class Bot():
         from db_models.logging import Logging
         parsed_data = self.inter.parse(text_message)
         confidence = parsed_data['intent']['confidence']
-        print('confidence', confidence)
-        print('Intent', float(os.environ.get('MINIMUM_INTENT_DEFAULT_CONFIDENCE')))
         if (confidence <= float(os.environ.get('MINIMUM_INTENT_DEFAULT_CONFIDENCE'))):
             Logging.create(text=parsed_data['text'], intent=parsed_data['intent']['name'], confidence=confidence)
             return False
