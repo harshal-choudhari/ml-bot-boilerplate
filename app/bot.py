@@ -42,6 +42,6 @@ class Bot():
                 result = self.agent.handle_message(data['text'])
                 resp.body = str(result[0])
             else:
-                resp.body = "{'result' : 'Default message'}"
+                resp.body = 'Default message'
         except Exception as e:
             print("Exception in bot- ", e)
